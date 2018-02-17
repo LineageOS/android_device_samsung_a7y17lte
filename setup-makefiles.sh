@@ -1,3 +1,4 @@
+#!/bin/bash
 #
 # Copyright (C) 2018 The LineageOS Project
 #
@@ -14,15 +15,8 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/a7y17lte
+set -e
+export VENDOR=samsung
+export DEVICE=a7y17lte
 
-# Init
-PRODUCT_PACKAGES += \
-    init.target.rc
-
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-
-$(call inherit-product, device/samsung/universal7880-common/common.mk)
-
-$(call inherit-product, vendor/samsung/a7y17lte/a7y17lte-vendor.mk)
+./../universal7880-common/setup-makefiles.sh $@
