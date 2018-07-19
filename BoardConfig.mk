@@ -18,6 +18,9 @@ include device/samsung/universal7880-common/BoardConfigCommon.mk
 
 LOCAL_PATH := device/samsung/a7y17lte
 
+# Include path
+TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
+
 # Extracted with libbootimg
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 BOARD_KERNEL_PREBUILT_DT := $(LOCAL_PATH)/dtb.img
