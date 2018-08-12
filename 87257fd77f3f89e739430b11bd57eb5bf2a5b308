@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "216d78df_52e0d30f",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 16128
+      },
+      "writtenOn": "2018-08-12T10:29:47Z",
+      "side": 0,
+      "message": "Is there any reason not to drop this line? I think I saw it in the common tree.",
+      "revId": "87257fd77f3f89e739430b11bd57eb5bf2a5b308",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
