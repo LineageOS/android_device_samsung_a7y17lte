@@ -14,9 +14,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-set -e
-
-export VENDOR=samsung
-export DEVICE=a7y17lte
-
 ./../universal7880-common/extract-files.sh $@
