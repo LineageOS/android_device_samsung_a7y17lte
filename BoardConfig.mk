@@ -26,3 +26,6 @@ TARGET_KERNEL_CONFIG := lineage-a7y17lte_defconfig
 
 # OTA
 TARGET_OTA_ASSERT_DEVICE := a7y17lte,a7y17ltexx
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
