@@ -16,10 +16,6 @@
 
 LOCAL_PATH := device/samsung/a7y17lte
 
-# Init
-PRODUCT_PACKAGES += \
-    init.target.rc
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
